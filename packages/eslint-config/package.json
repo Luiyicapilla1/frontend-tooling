@@ -3,8 +3,11 @@
   "version": "1.0.0",
   "type": "module",
   "exports": {
-    "./next": "./next.mjs",
-    "./base": "./base.mjs"
+    "./base": "./base.mjs",
+    "./next": "./next.mjs"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   },
   "peerDependencies": {
     "eslint": "^9.0.0",

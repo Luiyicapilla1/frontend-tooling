@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "type": "module",
   "exports": "./index.mjs",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "peerDependencies": {
     "prettier": "^3.0.0"
   }
